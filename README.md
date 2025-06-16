@@ -56,7 +56,7 @@ dbt-model-analyzer/
 ├── requirements.txt         # Python dependencies
 ├── screenshots/             # UI screenshots (optional)
 └── README.md
-
+```
 
 ---
 
