@@ -56,3 +56,46 @@ dbt-model-analyzer/
 ├── requirements.txt         # Python dependencies
 ├── screenshots/             # UI screenshots (optional)
 └── README.md
+
+
+---
+
+## 📁 Supported Input Types
+
+| Input Type        | Description                                      |
+|-------------------|--------------------------------------------------|
+| 📁 ZIP File Upload | Upload your DBT project as a `.zip` archive      |
+| 🌐 GitHub Clone    | Clone any public GitHub repo containing DBT code |
+
+---
+
+## 💡 Use Cases
+
+- 🧠 Understand unfamiliar DBT models and folders
+- 🗂 Auto-document large legacy DBT projects
+- 🔍 Trace where each column is used
+- 📈 Find complex models with too many refs or lines
+- 📊 Export summaries for reporting or onboarding
+- 📁 Explore staging vs mart models folder by folder
+
+---
+
+## 📤 Export Capabilities
+
+| Type               | Format         |
+|--------------------|----------------|
+| GPT Summaries      | `.md`          |
+| Lineage Graph      | `.html`        |
+| Model Metadata     | `.csv` or table |
+| Column Lineage     | `.csv` or table |
+| Complexity Metrics | DataFrame view |
+
+---
+
+## 🛠 Tech Stack
+
+- **Streamlit** – frontend dashboard framework  
+- **OpenAI Python SDK** – GPT-3.5/4 integrations  
+- **PyVis** – interactive visual DAGs and networks  
+- **NetworkX** – lineage and DAG graph construction  
+- **YAML / Pandas / Regex** – model and metadata parsing
