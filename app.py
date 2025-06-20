@@ -11,7 +11,7 @@ st.set_page_config(page_title="DBT Model Analyzer", layout="wide")
 st.title("📊 DBT Model Analyzer with GPT + Lineage")
 
 try:
-    openai.api_key = st.secrets["OPENAI_API_KEY"]
+    api_key = st.secrets["OPENAI_API_KEY"]
 except Exception:
     st.error("❌ Missing `OPENAI_API_KEY` in `.streamlit/secrets.toml` or Streamlit Cloud settings.")
     st.stop()
