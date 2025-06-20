@@ -1,0 +1,8 @@
+streamlit
+openai
+pyyaml
+tiktoken         # for token-based chunking
+pandas           # for table display
+graphviz         # for model lineage graphs (optional)
+networkx
+pyvis
