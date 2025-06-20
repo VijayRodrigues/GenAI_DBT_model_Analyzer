@@ -9,7 +9,8 @@ Built with Streamlit, this tool provides natural-language summaries, lineage gra
 ## 📌 Table of Contents
 
 - [✨ Features](#-features)
-- [📸 Screenshots](#-screenshots)
+- [🚀 Live Demo](#-live-demo)
+- [🚀 Demo Preview](#-demo-preview)
 - [📂 Project Structure](#-project-structure)
 - [⚙️ Setup Instructions](#️-setup-instructions)
 - [🧠 How GPT is Used](#-how-gpt-is-used)
@@ -39,11 +40,17 @@ Built with Streamlit, this tool provides natural-language summaries, lineage gra
 
 ---
 
-## 📸 Screenshots
 
-| Lineage Graph                     | Column Usage Viewer                |
-|----------------------------------|------------------------------------|
-| ![lineage](screenshots/lineage.png) | ![columns](screenshots/columns.png) |
+## 🚀 Live Demo
+
+🌐 [Try it on Streamlit Cloud](https://genai-dbt-model-analyzer.streamlit.app/)  
+
+---
+
+
+## 🚀 Demo Preview
+![genai_document_gif](https://github.com/user-attachments/assets/cbb73204-81b5-4444-a4cb-bdaee94fda6a)
+
 
 ---
 
